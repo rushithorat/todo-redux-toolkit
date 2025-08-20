@@ -1,0 +1,83 @@
+body{
+  height: 100%;
+  width: 100%;
+}
+.todo-container{
+  height: 40vw;
+  width: 90vw;
+  margin-left: 5vw;
+  background-color: #eddcd2;
+padding-top: 6vw;
+}
+.todo-container h2{
+  text-align: center;
+  padding-bottom: 3vw;
+  color: #7f5539;
+  font-size: 2.4vw;
+  margin-top: 0;
+ size: 2vw;
+ text-shadow: #9c6644 1px 0 10px;
+box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+.crud
+{
+  height: 28vw;
+  width: 70vw;
+  background-color: #cb997e;
+  margin-left: 10vw;
+  border-radius: 1.5%;
+  padding-top: 2vw;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.add
+{
+  height: 5vw;
+  width: 60vw;
+  /* background-color: blue; */
+   margin-left: 5vw;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ 
+}
+input{
+  height: 3.5vw;
+  width: 30vw;
+  background-color: #f8f9fa;
+  border: none;
+  outline: none;
+  font-size: 1.5vw;
+  color: black;
+  padding-left: 1vw;
+  
+
+  
+}
+.del
+{
+  height: 18vw;
+  width: 48.3vw;
+  /* background-color: yellow; */
+  margin-top: 2vw;
+  margin-left: 11vw;
+  font-size: 1.5vw;
+  color: whitesmoke;
+  padding: .5vw;
+}
+.add-btn{
+  background-color: green;
+
+}
+.del-btn{
+  background-color: red;
+  margin: .5vw;
+ }
+button{
+ border: none;
+  outline: none;
+}
+.content{
+  display: flex;              
+  justify-content: space-between; 
+  align-items: center;  
+}
